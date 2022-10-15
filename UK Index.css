@@ -1,0 +1,267 @@
+#Page {
+    display: flex;
+    text-align: justify;
+    align-items: stretch;
+    flex-direction: column;
+    position: relative;
+}
+
+:root {
+    --backcolor: black;
+    --textcolor: white;
+}
+
+button {
+    position: relative;
+    align-self: center;
+    width: 50%;
+    text-align: center;
+
+    background-color: rgba(164, 71, 34, 0.452);
+}
+
+button.dark {
+    position: relative;
+    align-self: center;
+    width: 50%;
+    text-align: center;
+
+}
+
+body {
+    background-color: floralwhite;
+    transition: 0.2s;
+}
+
+body.dark {
+    background-color: #323232;
+    color: aliceblue;
+}
+
+.header {
+    position: sticky;
+    top: 0%;
+
+}
+
+#title_text {
+    letter-spacing: 0.3cm;
+    text-decoration: none;
+    color: #323232;
+}
+
+
+.title_index {
+
+    background: radial-gradient(rgba(255, 255, 255, 0.5), rgb(255, 250, 240, 0.2));
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+
+    position: sticky;
+    top: 0%;
+    transition: 0.2s;
+}
+
+.title_index.dark {
+
+    background: radial-gradient(rgba(255, 255, 255, 0.726), rgba(0, 0, 0, 0.3));
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+
+    position: sticky;
+    top: 0%;
+}
+
+.container_content {
+    margin-left: 5%;
+    margin-right: 30%;
+
+    line-height: 30px;
+
+    display: flexbox;
+    justify-content: center;
+}
+
+
+.imagecon {
+    margin-left: 25%;
+    margin-right: 30%;
+
+    display: flexbox;
+    justify-content: center;
+
+    background-color: aqua;
+
+    flex-direction: row;
+    align-items: center;
+
+    width: 25%;
+
+}
+
+.image {
+    height: 200px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+
+    width: auto;
+    background-image: url("https://ksassets.timeincuk.net/wp/uploads/sites/46/2016/11/rexfeatures_5510551w-e1478005461284.jpg");
+    background-size: cover;
+    position: static;
+
+    border-style: groove;
+    border-width: 10px;
+
+    flex-shrink: 1;
+    flex-wrap: wrap;
+}
+
+#imggas {
+    height: 200px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+
+    width: auto;
+    background-image: url("https://static.thehoneycombers.com/wp-content/uploads/sites/2/2017/05/fish-and-chips.png");
+    background-size: cover;
+    position: static;
+
+    border-style: groove;
+    border-width: 10px;
+
+    flex-shrink: 1;
+    flex-wrap: wrap;
+}
+
+#imagcul {
+    height: 200px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+
+    width: auto;
+    background-image: url("https://paisley2021.blob.core.windows.net/media/1458/pacelondon.jpg?width=900;upscale=false");
+    background-size: cover;
+    position: static;
+
+    border-style: groove;
+    border-width: 10px;
+
+    flex-shrink: 1;
+    flex-wrap: wrap;
+}
+
+#countriescontainer {
+
+    margin-left: 5%;
+    margin-right: 30%;
+
+    line-height: 30px;
+    text-align: center;
+
+    display: flexbox;
+    justify-content: center;
+}
+
+.Scotland {
+    background: url("https://imgs.search.brave.com/-KlFjk6EOIMKgY3SEsZfdRhnPKgdnORbQd6oZPaumF8/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9jZG4u/d2FsbHBhcGVyc2Fm/YXJpLmNvbS80Mi8y/OC9ZMWNPYUYuanBn");
+    background-size: cover;
+
+    height: 80px;
+    width: 15%;
+    color: aliceblue;
+    text-decoration: double;
+
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+
+    margin-left: 42%;
+
+    border-style: double;
+    border-color: rgb(255, 255, 255);
+}
+
+.England {
+    background: url("https://piggotts.co.uk/wp-content/uploads/2015/10/shutterstock_159434009.jpg");
+    background-size: cover;
+
+    height: 80px;
+    width: 15%;
+    color: aliceblue;
+    text-decoration: double;
+
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+
+    margin-left: 42%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    border-style: double;
+    border-color: rgb(255, 255, 255);
+}
+
+.Wales {
+    background: url("https://www.countryflags.com/wp-content/uploads/wales-flag-jpg-xl.jpg");
+    background-size: cover;
+
+    height: 77px;
+    width: 15%;
+    color: aliceblue;
+    text-decoration: double;
+
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+
+    margin-left: 42%;
+    margin-bottom: 20px;
+
+    border-style: double;
+    border-color: rgb(255, 255, 255);
+}
+
+.NIreland {
+    background: url("https://elmersflag.com/wp-content/uploads/2013/08/northern-ireland-flag.jpg");
+    background-size: cover;
+
+    height: 100px;
+    width: 18%;
+    color: aliceblue;
+    text-decoration: double;
+
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+
+    margin-left: 40.5%;
+    margin-bottom: 20px;
+
+    border-style: double;
+    border-color: rgb(255, 255, 255);
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightsalmon;
+    text-decoration: underline;
+}
